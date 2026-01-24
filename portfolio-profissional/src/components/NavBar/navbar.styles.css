@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    border: 1px solid red;
+    height: 100px;
+    align-items: center;
+}
+
+.menu-line{
+    border: 1px solid green;
+    display: flex;
+    flex-basis: 10%;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.navbar-list{
+    border: 1px solid blue;
+    flex-basis: 80%;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.container-curriculo{
+    border: 1px solid black;
+    flex-basis: 10%;
+    height: 40px;
+}
