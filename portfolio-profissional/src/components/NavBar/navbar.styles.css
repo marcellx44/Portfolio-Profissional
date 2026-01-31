@@ -1,7 +1,7 @@
 header {
     display: flex;
     border: 1px solid red;
-    height: 100px;
+    height: 10vh;
     align-items: center;
 }
 
@@ -29,4 +29,15 @@ header {
     border: 1px solid black;
     flex-basis: 10%;
     height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        display:flex;
+        justify-content: space-between;
+        padding: 0px 5px;
+    }
+    .navbar-list{
+        display:none;
+    }
 }

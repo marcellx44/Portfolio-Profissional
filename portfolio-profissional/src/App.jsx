@@ -1,13 +1,15 @@
 import './App.css'
 import { NavBar } from "./components/NavBar/index.jsx";
-import { HomeSection } from "./components/Home/index.jsx";
+import { Home } from "./components/Home/index.jsx";
+import { About } from "./components/About/index.jsx";
 
 function App() {
 
   return (
     <>
       <NavBar></NavBar>
-      <HomeSection></HomeSection>
+      <Home></Home>
+      <About></About>
     </>
   )
 }

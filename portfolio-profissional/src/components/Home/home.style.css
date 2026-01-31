@@ -1,0 +1,24 @@
+.container-section-home{
+  height: 75vh;
+  position: relative; 
+  overflow: hidden;   
+}
+
+.container-section-home::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../../../images/home_image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  filter: blur(12px);      
+  transform: scale(1.06); 
+  z-index: 0;              
+}
+
+.home-content{
+    color:white;
+}

@@ -1,18 +1,11 @@
-import { SHome, SHomeContent, SHomeImage } from "./SHome.js";
-export const HomeSection = () => {
+import "./home.style.css";
+export const Home = () => {
     return (
-        <SHome>
-            <SHomeContent>
-                <div>
-                    <p>Olá, Sou a Marcella</p>
-                </div>
-                <div>
-                    <p>Desenvolvedora Web</p>
-                </div>
-            </SHomeContent>
-            <SHomeImage>
-                Oi
-            </SHomeImage>
-        </SHome>
+        <div className="container-section-home">
+            <div className="home-content">
+                <p>Inovação guiada pela experiência do usuário</p>
+                <p>Meu objetivo é.....</p>
+            </div>
+        </div>
     )
 }

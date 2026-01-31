@@ -19,8 +19,7 @@ export const NavBar = () => {
                     <li>Experiências</li>
                 </ul>
                 <div className="container-curriculo">
-                    <button>botao</button> 
-                    <SButton>Olá</SButton>     
+                    <SButton>Download</SButton>     
                 </div>
             </header>
         </>
