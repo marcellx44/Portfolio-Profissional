@@ -19,7 +19,7 @@ export const NavBar = () => {
                     <li>Experiências</li>
                 </ul>
                 <div className="container-curriculo">
-                    <SButton>Download</SButton>     
+                    <SButton>Baixar Currículo</SButton>     
                 </div>
             </header>
         </>
