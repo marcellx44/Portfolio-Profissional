@@ -1,4 +1,31 @@
 .container-section-sobre{
-    border: 1px solid blue;
     height: 75vh;
+    background-color: #3C5070;
+    padding: 2% 10%;
+}
+
+.container-content-sobre{
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    gap:70px;
+    width: 60%;
+}
+
+.photo-sobre{
+    border: 1px solid white;
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.photo-sobre>img{
+    height: 80%;
+    border-radius: 30px;
+}
+
+.section-content{
+    border: 1px solid;
 }
